@@ -1,8 +1,9 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
+  width: 100%;
 }
 
 .logo {
@@ -38,5 +39,66 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #667e64;
+}
+.bg-primary {
+  background-color: #2d3e50 !important;
+}
+.mt-auto {
+  margin-top: auto !important;
+}
+.w-100 {
+  width: 100%;
+}
+.mb-5 {
+  margin-bottom: 1.625rem !important;
+}
+.footer {
+  bottom: 0;
+  /* position: fixed; */
+  width: 100%;
+}
+body,
+a,
+p {
+  margin: 0;
+  padding: 20;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 16px;
+}
+
+.footer-icon {
+  font-size: 40px;
+  color: rgb(15, 2, 45);
+}
+.avatar-icon {
+  font-size: 100px;
+  color: rgb(15, 2, 45);
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+.about {
+  text-decoration: solid;
+  text-align: justify;
+  padding: 5px;
+  justify-content: center;
+  /* font-weight: 500; */
+  margin-left: 40px;
+  margin-top: 10px;
+}
+textarea {
+  columns: 10;
+  height: 400px;
+}
+.resume {
+  border: 3px outset;
+  text-align: left;
+}
+li {
+  font-weight: 500;
+  list-style-type: none;
 }
